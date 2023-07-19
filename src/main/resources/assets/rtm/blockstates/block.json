@@ -1,0 +1,5 @@
+{
+  "variants": {
+    "": { "model": "rtm:block/block"}
+  }
+}

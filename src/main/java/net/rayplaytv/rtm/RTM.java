@@ -9,15 +9,21 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
+import net.rayplaytv.rtm.block.ModBlocks;
+import net.rayplaytv.rtm.item.ModItems;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(RtmMain.MOD_ID)
-public class RtmMain {
+@Mod(RTM.MOD_ID)
+public class RTM {
     public static final String MOD_ID = "rtm";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public RtmMain(){
+    public RTM(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        //call item and block registration
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
