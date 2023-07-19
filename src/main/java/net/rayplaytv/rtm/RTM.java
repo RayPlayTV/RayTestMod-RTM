@@ -21,9 +21,10 @@ public class RTM {
     public RTM(){
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
-        //call item and block registration
+        //call item and block.json registration
         ModItems.register(modEventBus);
         ModBlocks.register(modEventBus);
+        RTMSoundEvents.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 

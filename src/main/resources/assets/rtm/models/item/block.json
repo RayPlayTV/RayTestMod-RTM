@@ -1,4 +1,6 @@
 {
-  "parent": "rtm:block/block"
-
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "rtm:item/block"
+  }
 }

@@ -19,13 +19,14 @@ import net.rayplaytv.rtm.item.ModItems;
 import java.util.function.Supplier;
 
 public class ModBlocks {
-    //create block register
+    //create block.json register
     public static final DeferredRegister<Block> BLOCKS =
             DeferredRegister.create(ForgeRegistries.BLOCKS,RTM.MOD_ID);
 
     //register blocks
     public static final RegistryObject<Block> BLOCK = registerBlock("block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(6f)), ModCreativeModeTab.RTM_TAB);
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(6f)),
+            ModCreativeModeTab.RTM_TAB);
     public static final RegistryObject<Block> BLORE = registerBlock("blore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.RTM_TAB);
@@ -35,7 +36,7 @@ public class ModBlocks {
 
 
 
-    //register block method
+    //register block.json method
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name,toReturn,tab);

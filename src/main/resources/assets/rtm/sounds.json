@@ -1,0 +1,50 @@
+{
+  "kazai_music_disc_angel_negro": {
+    "sounds": [
+      {
+        "name": "rtm:records/kazai_music_disc_angel_negro",
+        "stream": true
+      }
+    ]
+  },
+  "kazai_music_disc_asphyxia": {
+    "sounds": [
+      {
+        "name": "rtm:records/kazai_music_disc_asphyxia",
+        "stream": true
+      }
+    ]
+  },
+  "kazai_music_disc_bloodlust": {
+    "sounds": [
+      {
+        "name": "rtm:records/kazai_music_disc_bloodlust",
+        "stream": true
+      }
+    ]
+  },
+  "kazai_music_disc_itami": {
+    "sounds": [
+      {
+        "name": "rtm:records/kazai_music_disc_itami",
+        "stream": true
+      }
+    ]
+  },
+  "kazai_music_disc_tenno": {
+    "sounds": [
+      {
+        "name": "rtm:records/kazai_music_disc_tenno",
+        "stream": true
+      }
+    ]
+  },
+  "kazai_music_disc_yoru": {
+    "sounds": [
+      {
+        "name": "rtm:records/kazai_music_disc_yoru",
+        "stream": true
+      }
+    ]
+  },
+}
