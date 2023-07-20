@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rtm:item/blore"
+    "layer0": "rtm:blore/blore"
   }
 }

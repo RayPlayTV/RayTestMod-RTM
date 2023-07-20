@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "rtm:item/kazai_music_disc_1"
+    "layer0": "rtm:item/kazai_music_disc_bloodlust"
   }
 }

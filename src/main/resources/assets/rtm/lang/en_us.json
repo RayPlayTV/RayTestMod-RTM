@@ -1,11 +1,23 @@
 {
   "item.rtm.blapple": "Blapple",
   "item.rtm.blingot": "Blingot",
-  "item.rtm.kazai_music_disc_1": "Kazai Music Disc 1",
+  "item.rtm.kazai_music_disc_angel_negro": "Music Disc",
+  "item.rtm.kazai_music_disc_angel_negro.desc": "Ozo Gavira - Angel Negro (Kazai & Veklatschtes Dönertier Remix)",
+  "item.rtm.kazai_music_disc_asphyxia": "Music Disc",
+  "item.rtm.kazai_music_disc_asphyxia.desc": "Kazai x VolUp Beats - Asphyxia",
+  "item.rtm.kazai_music_disc_bloodlust": "Music Disc",
+  "item.rtm.kazai_music_disc_bloodlust.desc": "Kazai - Bloodlust",
+  "item.rtm.kazai_music_disc_itami": "Music Disc",
+  "item.rtm.kazai_music_disc_itami.desc": "Kazai x Plagiatt (feat. Lil Flakie) - Itami",
+  "item.rtm.kazai_music_disc_tenno": "Music Disc",
+  "item.rtm.kazai_music_disc_tenno.desc": "Kazai - Tenno",
+  "item.rtm.kazai_music_disc_yoru": "Music Disc",
+  "item.rtm.kazai_music_disc_yoru.desc": "Kazai x Pytro - Yoru",
 
   "block.rtm.block": "Block",
   "block.rtm.blore": "Blore",
   "block.rtm.deepslate_blore": "Deepslate Blore",
 
-  "itemGroup.rtmtab": "Ray Test Mod"
+  "itemGroup.rtm_tab": "Ray Test Mod",
+  "itemGroup.kaz_tab": "KAZAI"
 }
