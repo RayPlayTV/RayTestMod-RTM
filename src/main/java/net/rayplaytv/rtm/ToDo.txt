@@ -1,0 +1,3 @@
+( ) Door With Key
+( ) Item with Functionality
+(X) KazaiDiscs

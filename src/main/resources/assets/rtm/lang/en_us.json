@@ -1,6 +1,12 @@
 {
   "item.rtm.blapple": "Blapple",
   "item.rtm.blingot": "Blingot",
+  "item.rtm.horse_halter": "Horse Halter",
+  "item.rtm.not_helmet": "Not Helmet",
+  "item.rtm.not_chestplate": "Not Chestplate",
+  "item.rtm.not_leggings": "Not Leggings",
+  "item.rtm.not_boots": "Not Boots",
+  "item.rtm.dice": "Dice",
   "item.rtm.kazai_music_disc_angel_negro": "Music Disc",
   "item.rtm.kazai_music_disc_angel_negro.desc": "Ozo Gavira - Angel Negro (Kazai & Veklatschtes Dönertier Remix)",
   "item.rtm.kazai_music_disc_asphyxia": "Music Disc",
@@ -14,7 +20,7 @@
   "item.rtm.kazai_music_disc_yoru": "Music Disc",
   "item.rtm.kazai_music_disc_yoru.desc": "Kazai x Pytro - Yoru",
 
-  "block.rtm.block": "Block",
+  "block.rtm.bllock": "Bllock",
   "block.rtm.blore": "Blore",
   "block.rtm.deepslate_blore": "Deepslate Blore",
 

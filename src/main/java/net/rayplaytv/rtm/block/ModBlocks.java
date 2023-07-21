@@ -24,9 +24,9 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS,RTM.MOD_ID);
 
     //register blocks
-    public static final RegistryObject<Block> BLOCK = registerBlock("block",
-            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).requiresCorrectToolForDrops().strength(6f)),
-            ModCreativeModeTab.RTM_TAB);
+    public static final RegistryObject<Block> BLLOCK = registerBlock("bllock",
+            () -> new Block(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops()),
+                    ModCreativeModeTab.RTM_TAB);
     public static final RegistryObject<Block> BLORE = registerBlock("blore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of(Material.STONE).strength(6f).requiresCorrectToolForDrops(),
                     UniformInt.of(3,7)), ModCreativeModeTab.RTM_TAB);
@@ -36,8 +36,8 @@ public class ModBlocks {
 
 
 
-    //register block.json method
-    private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
+    //register block method
+    private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
         registerBlockItem(name,toReturn,tab);
         return toReturn;

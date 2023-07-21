@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#X#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "rtm:blingot"
+    },
+    "X": {
+      "item": "minecraft:apple"
+    }
+  },
+  "result": {
+    "item": "rtm:blapple"
+  }
+}

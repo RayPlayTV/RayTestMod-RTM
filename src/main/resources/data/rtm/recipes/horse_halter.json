@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "horse_halter",
+  "ingredients": [
+    {
+      "count": 2,
+      "item": "minecraft:lead"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "item": "rtm:horse_halter"
+  }
+}

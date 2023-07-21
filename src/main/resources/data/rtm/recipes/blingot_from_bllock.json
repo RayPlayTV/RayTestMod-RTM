@@ -1,9 +1,9 @@
 {
   "type": "minecraft:crafting_shapeless",
-  "group": "gold_ingot",
+  "group": "blingot",
   "ingredients": [
     {
-      "item": "rtm:block"
+      "item": "rtm:bllock"
     }
   ],
   "result": {
